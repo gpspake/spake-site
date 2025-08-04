@@ -50,6 +50,8 @@
       "absolute",
       "aspect-6/5",
       "aspect-square",
+      "bg-[url('//localhost:1313/moving.jpg')]",
+      "bg-[url('//localhost:1313/skyline.jpg')]",
       "bg-[url('/memphis.jpg')]",
       "bg-[url('/moving.jpg')]",
       "bg-blue-800",
