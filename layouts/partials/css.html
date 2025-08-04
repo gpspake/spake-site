@@ -1,0 +1,6 @@
+{{- $twOpts := dict "config" "tailwind.config.js" "inlineImports" true -}}
+{{- $styles := resources.Get "css/main.css" |
+               css.TailwindCSS $twOpts |
+               fingerprint -}}
+
+<link rel="stylesheet" href="{{ $styles.Permalink }}">
