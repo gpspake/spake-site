@@ -1,5 +1,5 @@
 languageCode = 'en-us'
-title = 'George Spake'
+title = 'Joe Spake'
 theme = 'tailwind'
 [build]
 writeStats = true
